@@ -40,12 +40,13 @@
   display: inline;
 }
 
-.icon-sm {
-  width: 40rem;
-  height: 4rem;
-}
 .icon-sm i {
+  font-size: 2rem;
   color: #0075ff;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
