@@ -6,6 +6,11 @@
   margin: 2rem;
   padding: 0.5rem 1em;
 }
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075ff;
+  border: solid 1px #0075ff;
+}
 .btn-main-s {
   font-size: 0.75rem;
 }
