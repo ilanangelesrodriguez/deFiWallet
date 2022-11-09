@@ -43,10 +43,33 @@
 .icon-sm i {
   font-size: 2rem;
   color: #0075ff;
-  padding: 0.1rem 0.25rem;
+  padding: 0.01rem 0.3rem;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
   cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+}
+.feature .cta {
+  margin-top: 3rem;
+  color: #0075ff;
+  font-weight: 600;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

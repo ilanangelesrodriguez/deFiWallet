@@ -58,9 +58,39 @@ $color-main:#0075ff;
     i {
         font-size: 2rem;
         color:$color-main;
-        padding: 0.1rem 0.25rem;
+        padding: 0.01rem 0.3rem;
         border-radius: 50%;
         box-shadow: 0 0 10px #00000040;
         cursor: pointer;
     }
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .icon {
+        color: $color-main;
+        font-size: 10rem;
+    }
+    .description {
+        .title {
+            font-size: 2rem;
+        }
+        .text {
+            color: #888;
+            font-weight: 600;
+        }
+    }
+    .cta {
+        margin-top: 3rem;
+        color: $color-main;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.icon-desc {
+    
 }
