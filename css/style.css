@@ -72,4 +72,20 @@
   text-align: center;
 }
 
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.icon-desc .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -92,5 +92,17 @@ $color-main:#0075ff;
 }
 
 .icon-desc {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .icon {
+        color: $color-main;
+        font-size: 10rem;
+        padding: 0;
+    }
+    .title {
+        margin-top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
 }
