@@ -22,8 +22,16 @@ $color-main:#0075ff;
 
 .btn-sec {
     @extend .btn-main;
+    color: rgb(2, 136, 85);
+    background-color: transparent;
+    border: solid 1px rgb(2, 136, 85);
 
+    &:hover {
+        color: rgb(5, 158, 5);
+        border: solid 1px rgb(5, 158, 5);
+    }
     &-s {
-        @extend .btn-main;
+        @extend .btn-sec;
+        font-size: 0.75rem;
     }
 }

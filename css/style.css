@@ -1,4 +1,4 @@
-.btn-main, .btn-sec-s, .btn-sec, .btn-main-s {
+.btn-main, .btn-sec, .btn-sec-s, .btn-main-s {
   background-color: #0075ff;
   color: white;
   border: none;
@@ -6,12 +6,25 @@
   margin: 2rem;
   padding: 0.5rem 1em;
 }
-.btn-main:hover, .btn-sec-s:hover, .btn-sec:hover, .btn-main-s:hover {
+.btn-main:hover, .btn-sec:hover, .btn-sec-s:hover, .btn-main-s:hover {
   background-color: white;
   color: #0075ff;
   border: solid 1px #0075ff;
 }
 .btn-main-s {
+  font-size: 0.75rem;
+}
+
+.btn-sec, .btn-sec-s {
+  color: rgb(2, 136, 85);
+  background-color: transparent;
+  border: solid 1px rgb(2, 136, 85);
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: rgb(5, 158, 5);
+  border: solid 1px rgb(5, 158, 5);
+}
+.btn-sec-s {
   font-size: 0.75rem;
 }
 
