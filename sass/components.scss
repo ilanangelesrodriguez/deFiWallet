@@ -19,3 +19,11 @@ $color-main:#0075ff;
         font-size: 0.75rem;
     }
 }
+
+.btn-sec {
+    @extend .btn-main;
+
+    &-s {
+        @extend .btn-main;
+    }
+}

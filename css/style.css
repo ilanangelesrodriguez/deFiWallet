@@ -1,4 +1,4 @@
-.btn-main, .btn-main-s {
+.btn-main, .btn-sec-s, .btn-sec, .btn-main-s {
   background-color: #0075ff;
   color: white;
   border: none;
@@ -6,7 +6,7 @@
   margin: 2rem;
   padding: 0.5rem 1em;
 }
-.btn-main:hover, .btn-main-s:hover {
+.btn-main:hover, .btn-sec-s:hover, .btn-sec:hover, .btn-main-s:hover {
   background-color: white;
   color: #0075ff;
   border: solid 1px #0075ff;
