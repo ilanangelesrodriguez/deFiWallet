@@ -1,3 +1,8 @@
+@mixin btn-sm-modify{
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+}
+
 $color-main:#0075ff;
 
 .btn-main {
@@ -16,7 +21,7 @@ $color-main:#0075ff;
 
     &-s {
         @extend .btn-main;
-        font-size: 0.75rem;
+        @include btn-sm-modify();
     }
 }
 
@@ -32,6 +37,6 @@ $color-main:#0075ff;
     }
     &-s {
         @extend .btn-sec;
-        font-size: 0.75rem;
+        @include btn-sm-modify();
     }
 }

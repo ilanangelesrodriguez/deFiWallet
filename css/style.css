@@ -13,6 +13,7 @@
 }
 .btn-main-s {
   font-size: 0.75rem;
+  padding: 0.5rem 1rem;
 }
 
 .btn-sec, .btn-sec-s {
@@ -26,6 +27,7 @@
 }
 .btn-sec-s {
   font-size: 0.75rem;
+  padding: 0.5rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
