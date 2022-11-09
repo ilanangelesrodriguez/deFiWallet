@@ -53,3 +53,11 @@ $color-main:#0075ff;
         display: inline;
     }
 }
+
+.icon-sm {
+    width: 40rem;
+    height: 4rem;
+    i {
+        color:$color-main;
+    }
+}

@@ -40,4 +40,12 @@
   display: inline;
 }
 
+.icon-sm {
+  width: 40rem;
+  height: 4rem;
+}
+.icon-sm i {
+  color: #0075ff;
+}
+
 /*# sourceMappingURL=style.css.map */
