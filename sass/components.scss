@@ -2,4 +2,14 @@ $color-main:#0075ff;
 
 .btn-main {
     background-color: $color-main;
+    color: white;
+    border: none;
+    border-radius: 4rem;
+    margin: 2rem;
+    padding: 0.5rem 1em;
+    
+    &-s {
+        @extend .btn-main;
+        font-size: 0.75rem;
+    }
 }
