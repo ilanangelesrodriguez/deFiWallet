@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -20,9 +21,11 @@ body {
     width: 100vw;
     border-bottom: solid 1px #ddd;
 }
+
 .logo a img {
     width: 4rem;
 }
+
 .sec-home {
     display: flex;
     @include section-display();
@@ -124,5 +127,22 @@ body {
             font-size: 0.9rem;
             color:#fffa;
         }
+    }
+}
+
+.sec-onboarding {
+    .intro {
+        @extend .sec-features, .intro ;
+    }
+    .steps {
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .step-separator {
+        flex: 1;
+        border-top: 2px solid #ddd;
+        margin: 0 1rem;
     }
 }
