@@ -1,6 +1,13 @@
 //Importo componentes para usar variables
 @use "components";
 
+@mixin section-display {
+    max-width: 100%;
+    width: 100vw;
+    padding: 3rem;
+    margin: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,27 +25,69 @@ body {
 }
 .sec-home {
     display: flex;
-    max-width: 100%;
-    width: 100vw;
-    padding: 4rem;
-    padding-left: 10vw;
-    margin: auto;
+    @include section-display();
     align-items: center;
     .home-cta {
+        width: 50vw;
         flex: 1;
         .cta-text {
             color: components.$color-main;
         }
         .home-title {
-            width: 40vw;
+            font-size: 2rem;
         }
     }
     .home-img {
-        max-width: 100%;
-        width: 40vw;
-        font-size: 3rem;
+        width: 20vw;
         img {
-            width: 7rem;
+            width: 20vw;
+        }
+    }
+}
+
+.sec-features {
+    @include section-display();
+    display: flex;
+    flex-direction: column;
+    .intro {
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 0.8rem;
+            color: #888;
+        }
+    }
+    .features {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: auto;
+        .text {
+            padding: 2rem 0;
+            flex: 1;
+            .feature {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .description {
+                    margin-left: 1rem;
+                    max-width: 20rem;
+                    .description-title {
+                        font-size: 1.25rem;
+                    }
+                    .description-text {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .imagen {
+            img {
+                max-width: 100%;
+                width: 30vw;
+            }
         }
     }
 }

@@ -53,9 +53,9 @@
 }
 
 .icon-sm i {
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: #0075ff;
-  padding: 0.01rem 0.3rem;
+  padding: 0.4rem 0.65rem;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
   cursor: pointer;
@@ -122,27 +122,73 @@ body {
   display: flex;
   max-width: 100%;
   width: 100vw;
-  padding: 4rem;
-  padding-left: 10vw;
+  padding: 3rem;
   margin: auto;
   align-items: center;
 }
 .sec-home .home-cta {
+  width: 50vw;
   flex: 1;
 }
 .sec-home .home-cta .cta-text {
   color: #0075ff;
 }
 .sec-home .home-cta .home-title {
-  width: 40vw;
+  font-size: 2rem;
 }
 .sec-home .home-img {
-  max-width: 100%;
-  width: 40vw;
-  font-size: 3rem;
+  width: 20vw;
 }
 .sec-home .home-img img {
-  width: 7rem;
+  width: 20vw;
+}
+
+.sec-features {
+  max-width: 100%;
+  width: 100vw;
+  padding: 3rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 2rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: auto;
+}
+.sec-features .features .text {
+  padding: 2rem 0;
+  flex: 1;
+}
+.sec-features .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-features .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.sec-features .features .text .feature .description .description-title {
+  font-size: 1.25rem;
+}
+.sec-features .features .text .feature .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .imagen img {
+  max-width: 100%;
+  width: 30vw;
 }
 
 /*# sourceMappingURL=style.css.map */
