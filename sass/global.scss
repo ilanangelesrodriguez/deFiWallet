@@ -91,3 +91,14 @@ body {
         }
     }
 }
+
+.sec-benefits {
+    border-top: 1px solid #ccc;
+    .intro {
+        @extend .sec-features, .intro;
+        text-align: center;
+    }
+    .benefit-cards {
+        width: 100%;
+    }
+}
