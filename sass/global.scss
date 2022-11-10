@@ -102,3 +102,27 @@ body {
         width: 100%;
     }
 }
+
+.sec-kpis {
+    max-width: 100%;
+    width: 100vw;
+    background-color: components.$color-main;
+    color: white;
+    padding: 4rem;
+    
+    .kpi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .number {
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+
+        .desc {
+            font-size: 0.9rem;
+            color:#fffa;
+        }
+    }
+}
