@@ -1,21 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 100%;
-  width: 100vw;
-  border-bottom: solid 1px #ddd;
-}
-
-.logo a img {
-  width: 4rem;
-}
-
 .btn-main, .btn-main-s {
   background-color: #0075ff;
   color: white;
@@ -116,6 +98,51 @@ body {
   margin-top: -2rem;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  width: 100vw;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo a img {
+  width: 4rem;
+}
+
+.sec-home {
+  display: flex;
+  max-width: 100%;
+  width: 100vw;
+  padding: 4rem;
+  padding-left: 10vw;
+  margin: auto;
+  align-items: center;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 40vw;
+}
+.sec-home .home-img {
+  max-width: 100%;
+  width: 40vw;
+  font-size: 3rem;
+}
+.sec-home .home-img img {
+  width: 7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

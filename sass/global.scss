@@ -1,3 +1,6 @@
+//Importo componentes para usar variables
+@use "components";
+
 body {
     margin: 0;
     padding: 0;
@@ -12,4 +15,30 @@ body {
 }
 .logo a img {
     width: 4rem;
+}
+.sec-home {
+    display: flex;
+    max-width: 100%;
+    width: 100vw;
+    padding: 4rem;
+    padding-left: 10vw;
+    margin: auto;
+    align-items: center;
+    .home-cta {
+        flex: 1;
+        .cta-text {
+            color: components.$color-main;
+        }
+        .home-title {
+            width: 40vw;
+        }
+    }
+    .home-img {
+        max-width: 100%;
+        width: 40vw;
+        font-size: 3rem;
+        img {
+            width: 7rem;
+        }
+    }
 }
