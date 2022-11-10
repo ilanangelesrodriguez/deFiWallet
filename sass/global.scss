@@ -146,3 +146,20 @@ body {
         margin: 0 1rem;
     }
 }
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    padding: 5rem;
+
+    .footer-cta {
+        width: 50%;
+
+        .cta-title {
+        font-size: 2rem;
+        }
+
+        .cta-description {
+        font-size: 1.1rem;
+        }
+    }
+}
