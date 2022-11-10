@@ -1,7 +1,7 @@
 @mixin btn-base {
     border-radius: 4rem;
     padding: 0.5rem 1em;
-    margin: 2rem;
+    margin: 0;
 }
 
 @mixin btn-sm-modify{
@@ -15,7 +15,6 @@ $color-main:#0075ff;
     background-color: $color-main;
     color: white;
     border: none;
-    margin: 2rem;
     @include btn-base();
 
     &:hover {
@@ -32,13 +31,14 @@ $color-main:#0075ff;
 
 .btn-sec {
     @include btn-base();
-    color: rgb(2, 136, 85);
-    background-color: transparent;
-    border: solid 1px rgb(2, 136, 85);
+    background-color: rgb(2, 136, 85);
+    color: white;
+    border: none;
 
     &:hover {
-        color: rgb(5, 158, 5);
-        border: solid 1px rgb(5, 158, 5);
+        color: rgb(2, 136, 85);
+        background-color: transparent;
+        border: solid 1px rgb(2, 136, 85);
     }
     &-s {
         @extend .btn-sec;
@@ -47,10 +47,20 @@ $color-main:#0075ff;
 }
 
 .main-menu {
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
     li {
         font-size: 1rem;
         list-style: none;
         display: inline;
+        a {
+            color: #000;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;   
+            }
+        }
     }
 }
 
