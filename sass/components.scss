@@ -5,8 +5,8 @@
 }
 
 @mixin btn-sm-modify{
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
 }
 
 $color-main:#0075ff;
@@ -55,8 +55,9 @@ $color-footer:#f4f8fe;
         font-size: 1rem;
         list-style: none;
         display: inline;
+        padding: 0 2rem;
         a {
-            color: #000;
+            color: white;
             text-decoration: none;
             &:hover {
                 text-decoration: underline;   
@@ -80,10 +81,11 @@ $color-footer:#f4f8fe;
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    
     i {
         color: $color-main;
-        font-size: 7.5rem;
+        font-size: 7rem;
+
     }
     .description {
         .title {
