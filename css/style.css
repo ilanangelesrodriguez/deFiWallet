@@ -71,7 +71,7 @@
   font-size: 7.5rem;
 }
 .benefit .description .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .benefit .description .text {
   color: #888;
@@ -214,7 +214,7 @@ body {
   align-items: center;
 }
 .sec-kpis .kpi .number {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 .sec-kpis .kpi .desc {
