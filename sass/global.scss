@@ -102,16 +102,20 @@ body {
     .intro {
         @extend .sec-features, .intro;
         text-align: center;
+        margin-bottom: -10vh;
     }
     .benefit-cards {
         width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 
 .sec-kpis {
     max-width: 100%;
+    max-height: 100%;
     width: 100vw;
-    height: 45vh;
+    height: 40vh;
     background-color: components.$color-main;
     color: white;
     padding: 1.5rem;
@@ -120,14 +124,17 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
+        justify-content: center;
 
         .number {
-            font-size: 2.5rem;
+            font-size: 5vh;
             font-weight: 600;
+            
         }
 
         .desc {
-            font-size: 0.9rem;
+            font-size: 2.5vh;
             color:#fffa;
         }
     }
