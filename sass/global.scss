@@ -1,6 +1,7 @@
 //Importo componentes para usar variables
 @use "components";
 
+//Conjunto de estilos para las secciones
 @mixin section-display {
     max-width: 100%;
     width: 100vw;
@@ -20,7 +21,8 @@ body {
     max-width: 100%;
     width: 100vw;
     border-bottom: solid 1px #ddd;
-    background-color: components.$color-main;
+    // background-color: components.$color-main;
+    background-color: cadetblue;
     padding-bottom: 0.5rem;
 }
 

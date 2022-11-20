@@ -11,6 +11,7 @@
 
 $color-main:#0075ff;
 $color-footer:#f4f8fe;
+$color-secondary:rgb(2, 136, 85);
 
 .btn-main {
     background-color: $color-main;
@@ -33,15 +34,15 @@ $color-footer:#f4f8fe;
 
 .btn-sec {
     @include btn-base();
-    background-color: rgb(2, 136, 85);
+    background-color: $color-secondary;
     color: white;
     border: none;
     font-weight: bold;
 
     &:hover {
-        color: rgb(2, 136, 85);
+        color: $color-secondary;
         background-color: transparent;
-        border: solid 1px rgb(2, 136, 85);
+        border: solid 1px $color-secondary;
     }
     &-s {
         @extend .btn-sec;
@@ -113,6 +114,7 @@ $color-footer:#f4f8fe;
     display: flex;
     flex-direction: column;
     text-align: center;
+    
     .icon {
         color: $color-main;
         font-size: 10rem;
@@ -129,6 +131,6 @@ $color-footer:#f4f8fe;
     display: flex;
     justify-content: center;
     font-weight: bold;
-    // background-color: rgb(2, 136, 85);
+    // background-color: $color-secondary;
     // color: black;
 }
