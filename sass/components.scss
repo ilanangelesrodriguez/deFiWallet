@@ -21,9 +21,12 @@ $color-secondary:rgb(2, 136, 85);
     font-weight: bold;
 
     &:hover {
-        background-color: white;
+        background-color: transparent;
         color: $color-main;
         border: solid 1px $color-main;
+    }
+    &:active {
+        background-color: white;
     }
 
     &-s {
@@ -43,6 +46,9 @@ $color-secondary:rgb(2, 136, 85);
         color: $color-secondary;
         background-color: transparent;
         border: solid 1px $color-secondary;
+    }
+    &:active {
+        background-color: white;
     }
     &-s {
         @extend .btn-sec;
@@ -66,7 +72,10 @@ $color-secondary:rgb(2, 136, 85);
             color: white;
             text-decoration: none;
             &:hover {
-                text-decoration: underline;   
+                text-decoration: underline;
+                color: rgb(9, 29, 68); 
+                font-weight: bold;
+
             }
         }
     }

@@ -8,9 +8,12 @@
   font-weight: bold;
 }
 .btn-main:hover, .btn-main-s:hover {
-  background-color: white;
+  background-color: transparent;
   color: #0075ff;
   border: solid 1px #0075ff;
+}
+.btn-main:active, .btn-main-s:active {
+  background-color: white;
 }
 .btn-main-s {
   font-size: 1rem;
@@ -30,6 +33,9 @@
   color: rgb(2, 136, 85);
   background-color: transparent;
   border: solid 1px rgb(2, 136, 85);
+}
+.btn-sec:active, .btn-sec-s:active {
+  background-color: white;
 }
 .btn-sec-s {
   font-size: 1rem;
@@ -53,6 +59,8 @@
 }
 .main-menu li a:hover {
   text-decoration: underline;
+  color: rgb(9, 29, 68);
+  font-weight: bold;
 }
 
 .icon-sm i {
