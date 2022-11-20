@@ -17,6 +17,7 @@ $color-footer:#f4f8fe;
     color: white;
     border: none;
     @include btn-base();
+    font-weight: bold;
 
     &:hover {
         background-color: white;
@@ -35,6 +36,7 @@ $color-footer:#f4f8fe;
     background-color: rgb(2, 136, 85);
     color: white;
     border: none;
+    font-weight: bold;
 
     &:hover {
         color: rgb(2, 136, 85);
@@ -51,11 +53,14 @@ $color-footer:#f4f8fe;
     margin-bottom: 0;
     padding-left: 0;
     text-align: center;
+    // font-size: 2rem;
     li {
-        font-size: 1rem;
+        font-size: 1.2rem;
         list-style: none;
         display: inline;
         padding: 0 2rem;
+        // font-weight: bold;
+
         a {
             color: white;
             text-decoration: none;
@@ -118,4 +123,12 @@ $color-footer:#f4f8fe;
         font-size: 1.5rem;
         font-weight: 600;
     }
+}
+
+.footer-d {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    // background-color: rgb(2, 136, 85);
+    // color: black;
 }

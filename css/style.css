@@ -5,6 +5,7 @@
   border-radius: 4rem;
   padding: 0.5rem 1em;
   margin: 0;
+  font-weight: bold;
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
@@ -23,6 +24,7 @@
   background-color: rgb(2, 136, 85);
   color: white;
   border: none;
+  font-weight: bold;
 }
 .btn-sec:hover, .btn-sec-s:hover {
   color: rgb(2, 136, 85);
@@ -40,7 +42,7 @@
   text-align: center;
 }
 .main-menu li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   list-style: none;
   display: inline;
   padding: 0 2rem;
@@ -101,6 +103,12 @@
   font-weight: 600;
 }
 
+.footer-d {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -118,7 +126,7 @@ body {
 }
 
 .logo a img {
-  width: 5rem;
+  width: 6rem;
 }
 
 .sec-home {
@@ -135,6 +143,7 @@ body {
 }
 .sec-home .home-cta .cta-text {
   color: #0075ff;
+  font-size: 1.5rem;
 }
 .sec-home .home-cta .home-title {
   font-size: 2rem;
